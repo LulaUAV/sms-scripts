@@ -33,7 +33,7 @@ class TextMessage:
         print 'Disconneting phone...'
         self.ser.close()
 
-sms = TextMessage("8442462790","SMS Message enviado desde Linux Mint")
+sms = TextMessage("8442462790","SMS Message enviado desde Ubuntu Server 16.04")
 sms.connectPhone()
 for x in range(0,3):
     sms.sendMessage()

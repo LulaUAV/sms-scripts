@@ -145,4 +145,4 @@ def ussd_sms_check():
 
 # My code
 sendsms('8442462790', 'Mensaje SMS')
-print read_read_sms()
+print read_all_sms()
